@@ -90,6 +90,9 @@ const colors = ['red', 'blue', 'green']
 console.log(colors.shift());
 
 //13
+let template = 'Vaqif'
+let log = `Hello ${template}`
+console.log(log);
 
 //????
 
@@ -121,7 +124,45 @@ let resault = randomarr2.reduce((sum, current) => sum + current, 0);
 console.log(resault);
 
 //18
-// ???
+const day = 'Monday'
+
+let message;
+
+switch (day) {
+        case 'Monday':
+        message = '1 ci gun'
+        break;
+
+        case 'Tuesday':
+        message = '2 ci gun'
+        break;
+
+        case 'Wednesday':
+        message = '3 ci gun'
+        break;
+
+        case 'Thursday':
+        message = '4 ci gun'
+        break;
+
+        case 'Friday':
+        message = '5 ci gun'
+        break;
+
+        case 'Saturday':
+        message = '6 ci gun'
+        break;
+
+        case 'Sunday':
+        message = '7 ci gun'
+        break;
+
+
+        default:
+        message = 'bele bir gun yoxdur'
+        break;
+}
+console.log(message);
 
 
 //19
@@ -155,6 +196,9 @@ let car = {
 console.log(car.carname + 'Started');
 
 //24
+let find = [20,30,40,50,58]
+let Greather50 = find.find(num => num > 50)
+console.log(Greather50)
 
 //25
 let spread1 = [1,2,3];
@@ -189,4 +233,13 @@ let firstElement = [];
 
 
 //29
+
+
+
+
+
+//31
+let darr = [[1,2,3], [4,5,6]]
+
+
 
