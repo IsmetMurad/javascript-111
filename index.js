@@ -233,13 +233,36 @@ let firstElement = [];
 
 
 //29
+function Objtoarr(obj) {
+    return Object.entries(obj);
+    
+}
+
+let exampleObj = {
+    Name: 'Ismet',
+    Surname: 'Murad'
+};
+let finish = Objtoarr(exampleObj)
+console.log(finish);
+
 
 
 
 
 
 //31
-let darr = [[1,2,3], [4,5,6]]
+function merge(obj1, obj2) {
+    return {...obj1, ...obj2}
+    
+}
 
+let object1 = {
+    value: 'Vaqif'
+}
 
+let object2 = {
+    value2: 'Gulmemedov'
+}
+let obj23 = merge(object1, object2)
+console.log(obj23);
 
